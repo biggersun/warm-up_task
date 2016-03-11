@@ -47,31 +47,14 @@ table { border-collapse:collapse; border-spacing:0; }
 	background-color: rgb(239,118,116);
 	color: white;
 }
-/* .jomb .github{
-	width: 70px;
-	height: 35px;
-	position: relative;
-	top: 30px;
-	right: 30px;
-	float: right;
-	border: 2px solid rgb(239,118,116);
-	border-radius: 10px;
-	text-align: center;
-}
-.jomb .github a{
-	line-height: 35px;
-	color: rgb(116,105,114);
-}
-.jomb .github:hover{
-	background-color: rgb(239,118,116);
-}
-.jomb .github a:hover{
-	color: wgite;
-} */
 .member{
 	height: 400px;
 	width: 20%;
 	float: left;
+}
+.member img{
+	margin-top: -10%;
+	margin-left: -50%;
 }
 .head_border{
 	width: 100px;
