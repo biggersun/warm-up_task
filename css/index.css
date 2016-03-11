@@ -1,0 +1,83 @@
+/* CSS Document */
+/*CSS 初始化*/
+.nav, .pagination, .carousel, .panel-title a { cursor: pointer!important; }
+body, h1, h2, h3, h4, h5, h6, hr, p, blockquote, dl, dt, dd, ul, ol, li, pre, form, fieldset, legend, button, input, textarea, th, td { margin:0; padding:0; }
+body, button, input, select, textarea { font:20px/1.8;margin:0px,0px;padding:0px,0px;font-family:"Microsoft YaHei"!important;}
+h1, h2, h3, h4, h5, h6{ font-size:100%; }
+address, cite, dfn, em, var { font-style:normal; }
+code, kbd, pre, samp { font-family:couriernew, courier, monospace; }
+small{ font-size:12px; }
+ul, ol { list-style:none; }
+a { text-decoration:none; }
+sup { vertical-align:text-top; }
+sub{ vertical-align:text-bottom; }
+legend { color:#000; }
+fieldset, img { border:0; }
+button, input, select, textarea { font-size:100%; }
+table { border-collapse:collapse; border-spacing:0; }
+
+.jomb{
+	width: 100%;
+	height: 400px;
+	background: url("../imgs/bg01.jpg") no-repeat;
+}
+.jomb .logo{
+	width: 200px;
+	height: 210px;
+	position: relative;
+	top: 20px;
+	margin-left: 30px;
+	float: left;
+	background: url("../imgs/logo.png") no-repeat;
+}
+.jomb a{
+	width: 70px;
+	height: 35px;
+	float: right;
+	margin-top: 40px;
+	margin-right: 40px;
+	border: 2px solid rgb(239,118,116);
+	border-radius: 10px;
+	text-align: center;
+	line-height: 35px;
+	color: rgb(116,105,114);
+	display: block;
+}
+.jomb a:hover{
+	background-color: rgb(239,118,116);
+	color: white;
+}
+/* .jomb .github{
+	width: 70px;
+	height: 35px;
+	position: relative;
+	top: 30px;
+	right: 30px;
+	float: right;
+	border: 2px solid rgb(239,118,116);
+	border-radius: 10px;
+	text-align: center;
+}
+.jomb .github a{
+	line-height: 35px;
+	color: rgb(116,105,114);
+}
+.jomb .github:hover{
+	background-color: rgb(239,118,116);
+}
+.jomb .github a:hover{
+	color: wgite;
+} */
+.member{
+	height: 400px;
+	width: 20%;
+	float: left;
+}
+.head_border{
+	width: 100px;
+	height: 100px;
+	border: 5px solid rgb(239,118,116);
+    border-radius: 70%;
+    margin-top: 40px;
+    margin-left: 30%;
+}
